@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit:wght@500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+#news-list, #see-more{
+    margin-bottom: 200px;
+  }
+  .news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  
+    font-family: 'Inter', sans-serif;
+  
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #A9A9A9;
+  
+    padding: 0px 0px 32px 0px;
+  }
+  .news img{
+    width: 265px;
+  }
+  .news-content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 70%;
+  }
+  .news-info-top, .news-info-buttom-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .news-info-gray-text, .news-info-date, .news-info-time, .news-info-for-you{
+    color: #A9A9A9;
+  }
+  .news-info-top-section-name{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .news-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    border: none;
+    background: none;
+    text-align: start;
+    padding: 0;
+  }
+  .news-abstract{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .news-info-buttom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .news-info-buttom div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .news-icons img, .news-info-top img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  }

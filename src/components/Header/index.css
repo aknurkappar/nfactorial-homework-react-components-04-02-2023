@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit:wght@500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.header-logo-text{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+  }
+  #header-1{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 134px;
+  }
+  #header-2{
+    font-size: 48px;
+    line-height: 120px;
+    margin-bottom: 64px;
+  }
